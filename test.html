@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        display: none;
+      }
+      input:valid {
+        background-color: green;
+      }
+      input:valid ~ button {
+        display: block;
+      }
+      input:valid ~ div > div.d {
+        background-color: green;
+      }
+      span {
+        display: inline-block;
+        width: 20px;
+        background-color: silver;
+      }
+      .g {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.5rem;
+        width: 200px;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        background-color: gainsboro;
+        margin: 20px;
+      }
+      .g > div {
+        height: 20px;
+        background-color: silver;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>1</span>#garden<br />
+      <span>2</span>display:grid<br />
+      <input type="text" pattern="a" required />
+      <button>weiter</button>
+      <div class="g">
+        <div></div>
+        <div></div>
+        <div class="d"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>

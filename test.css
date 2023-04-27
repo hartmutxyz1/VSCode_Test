@@ -1,10 +1,6 @@
 :root{
     --farbe:blue;
 }
-h1{
-h{
-    color:green
+h2{
+    color:var(--farbe);
 }    
-
-    color:var(--farbe)
-}

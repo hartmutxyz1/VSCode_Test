@@ -2,6 +2,9 @@
     --farbe:blue;
 }
 h1{
-    
+h{
+    color:green
+}    
+
     color:var(--farbe)
 }
